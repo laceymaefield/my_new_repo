@@ -1,0 +1,14 @@
+N = 8
+M = 3
+
+if N % M > 0: 
+    print((N // M) + (N % M))
+
+else: 
+    print(N / M)
+
+import sys
+inp = sys.stdin.readline()
+inpList = inp.split(" ")
+N = int(inpList[0])
+M = int(inpList[1])
